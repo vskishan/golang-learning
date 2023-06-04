@@ -25,6 +25,8 @@
 
    Function consisting of some code
 
+   Note: Functions returning two values can have ``` (<return_type1>, <return_type2>) ``` in the method signature. Similar thing can be followed for function returning multiple values
+
 4. ``` var message string = "Hi Kishan!" ``` \
    ``` message := "Hi Kishan!" ```
    
