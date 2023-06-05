@@ -71,5 +71,21 @@
     * Receiver functions can be used by the var's of a particular type to be called
     * The reciever argument is by conventionally a single / double letter character(s) signifying that particular type
 
+9. Go is a pass-by-value language
+
+10. ``` &variable ``` : Gives the memory address of the variable \
+    ``` *pointer ``` : Gives the value at the memory address of the pointer
+
+    ``` *type ``` : Indicates that we deal with the pointer of that type \
+    ``` *varibale ``` : Indicates the value
+
+    Address to value : ``` *address ``` \
+    Value to address : ``` &value ```
+
+11. Reference Types : slices , maps , channels , functions \
+    Value Types : int , bool , string , struct
+
+     *How Slice works without pointers as refernce type ?* \
+         Slice maintians a reference to the underlying array, so although when we try to manipulate the slice according to GO ( which is a pass by value language) it creates another copy but here the pointer to underlying array is same . This is a catch which makes it a reference type
 
 
